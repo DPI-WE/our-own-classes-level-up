@@ -133,29 +133,29 @@ describe "Car class" do
   end
 end
 ```
-{: .repl-test #car_class_test_1 for="car_class" title="Car Class initializes with make, model, and year" points="1"}
+{: .repl-test #car_class_test_1 for="car_class" title="Car class initializes with make, model, and year" points="1"}
 
 ```ruby
 describe "Car class" do
-  it "allows changing the make and stores it in uppercase" do
+  it "allows changing the make and capitalizes it" do
     car = Car.new("Toyota", "Camry", 2021)
     car.make = "toyota"
     expect(car.make).to eq("Toyota")
   end
 end
 ```
-{: .repl-test #car_class_test_2 for="car_class" title="Car Class allows changing the make and stores it in uppercase" points="1"}
+{: .repl-test #car_class_test_2 for="car_class" title="Car class allows changing the make and capitalizes it" points="1"}
 
 ```ruby
 describe "Car class" do
-  it "allows changing the model and stores it in uppercase" do
+  it "allows changing the model and capitalizes it" do
     car = Car.new("Toyota", "Camry", 2021)
     car.model = "corolla"
     expect(car.model).to eq("Corolla")
   end
 end
 ```
-{: .repl-test #car_class_test_3 for="car_class" title="Car Class allows changing the model and stores it in uppercase" points="1"}
+{: .repl-test #car_class_test_3 for="car_class" title="Car class allows changing the model and capitalizes it" points="1"}
 
 ```ruby
 describe "Car class" do
